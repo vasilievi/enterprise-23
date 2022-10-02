@@ -5,7 +5,7 @@ export default function App() {
     useEffect(() => {
         console.log('useEffect test');
     }, []);
- 
+  
     return (
         <div className="wrapper">
             <nav id="sidebar" className="sidebar js-sidebar">
