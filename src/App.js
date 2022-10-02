@@ -21,39 +21,39 @@ export default function App() {
 
                         <li className="sidebar-item active">
                             <a className="sidebar-link" href="index.html">
-                                <Icon.Sliders/> <span
+                                <Icon.Sliders class="align-middle" /> <span
                                     className="align-middle">Dashboard</span>
                             </a>
                         </li>
                         <li className="sidebar-item active">
                             <a className="sidebar-link" href="pages-tasks.html">
-                                <Icon.List/> <span className="align-middle">Tasks</span>
+                                <Icon.List class="align-middle" /> <span className="align-middle">Tasks</span>
                                 <span className="sidebar-badge badge bg-primary">Pro</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="pages-profile.html">
-                                <Icon.User/> <span className="align-middle">Profile</span>
+                                <Icon.User class="align-middle" /> <span className="align-middle">Profile</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="pages-sign-in.html">
-                                <Icon.LogIn/> <span className="align-middle">Sign In</span>
+                                <Icon.LogIn class="align-middle" /> <span className="align-middle">Sign In</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="pages-sign-up.html">
-                                <Icon.UserPlus/> <span className="align-middle">Sign
+                                <Icon.UserPlus class="align-middle" /> <span className="align-middle">Sign
                                     Up</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="pages-blank.html">
-                                <Icon.Book /> <span className="align-middle">Blank</span>
+                                <Icon.Book class="align-middle" /> <span className="align-middle">Blank</span>
                             </a>
                         </li>
 
@@ -63,33 +63,33 @@ export default function App() {
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="ui-buttons.html">
-                                <Icon.Square /> <span className="align-middle">Buttons</span>
+                                <Icon.Square class="align-middle" /> <span className="align-middle">Buttons</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="ui-forms.html">
-                                <Icon.CheckSquare /> <span
+                                <Icon.CheckSquare class="align-middle" /> <span
                                     className="align-middle">Forms</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="ui-cards.html">
-                                <Icon.Grid /> <span className="align-middle">Cards</span>
+                                <Icon.Grid class="align-middle" /> <span className="align-middle">Cards</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="ui-typography.html">
-                                <Icon.AlignLeft /> <span
+                                <Icon.AlignLeft class="align-middle" /> <span
                                     className="align-middle">Typography</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="icons-feather.html">
-                                <Icon.Coffee/> <span className="align-middle">Icons</span>
+                                <Icon.Coffee class="align-middle" /><span className="align-middle">Icons</span>
                             </a>
                         </li>
 
@@ -99,14 +99,14 @@ export default function App() {
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="charts-chartjs.html">
-                                <i className="align-middle" data-feather="bar-chart-2"></i> <span
+                                <Icon.BarChart2 class="align-middle" /><span
                                     className="align-middle">Charts</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="maps-google.html">
-                                <i className="align-middle" data-feather="map"></i> <span className="align-middle">Maps</span>
+                                <Icon.Map class="align-middle" /><span className="align-middle">Maps</span>
                             </a>
                         </li>
                     </ul>
@@ -136,7 +136,7 @@ export default function App() {
                             <li className="nav-item dropdown">
                                 <a className="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
-                                        <i className="align-middle" data-feather="bell"></i>
+                                        <Icon.Bell />
                                         <span className="indicator">4</span>
                                     </div>
                                 </a>
@@ -149,7 +149,7 @@ export default function App() {
                                         <a href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
-                                                    <i className="text-danger" data-feather="alert-circle"></i>
+                                                    <Icon.AlertCircle />
                                                 </div>
                                                 <div className="col-10">
                                                     <div className="text-dark">Update completed</div>
@@ -162,7 +162,7 @@ export default function App() {
                                         <a href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
-                                                    <i className="text-warning" data-feather="bell"></i>
+                                                    <Icon.Bell />
                                                 </div>
                                                 <div className="col-10">
                                                     <div className="text-dark">Lorem ipsum</div>
@@ -175,7 +175,7 @@ export default function App() {
                                         <a href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
-                                                    <i className="text-primary" data-feather="home"></i>
+                                                    <Icon.Home />
                                                 </div>
                                                 <div className="col-10">
                                                     <div className="text-dark">Login from 192.186.1.8</div>
@@ -186,7 +186,7 @@ export default function App() {
                                         <a href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
-                                                    <i className="text-success" data-feather="user-plus"></i>
+                                                    <Icon.UserPlus />
                                                 </div>
                                                 <div className="col-10">
                                                     <div className="text-dark">New connection</div>
@@ -206,7 +206,7 @@ export default function App() {
                                 <a className="nav-icon dropdown-toggle" href="#" id="messagesDropdown"
                                     data-bs-toggle="dropdown">
                                     <div className="position-relative">
-                                        <i className="align-middle" data-feather="message-square"></i>
+                                        <Icon.MessageSquare />
                                     </div>
                                 </a>
                                 <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
@@ -282,7 +282,7 @@ export default function App() {
                             <li className="nav-item dropdown">
                                 <a className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#"
                                     data-bs-toggle="dropdown">
-                                    <i className="align-middle" data-feather="settings"></i>
+                                    <Icon.Settings />
                                 </a>
 
                                 <a className="nav-link dropdown-toggle d-none d-sm-inline-block" href="#"
@@ -291,15 +291,15 @@ export default function App() {
                                         alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
                                 </a>
                                 <div className="dropdown-menu dropdown-menu-end">
-                                    <a className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1"
-                                        data-feather="user"></i> Profile</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1"
-                                        data-feather="pie-chart"></i> Analytics</a>
+                                    <a className="dropdown-item" href="pages-profile.html">
+                                        <Icon.User className="align-middle me-1" /> Profile</a>
+                                    <a className="dropdown-item" href="#">
+                                        <Icon.PieChart className="align-middle me-1" /> Analytics</a>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="index.html"><i className="align-middle me-1"
-                                        data-feather="settings"></i> Settings & Privacy</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1"
-                                        data-feather="help-circle"></i> Help Center</a>
+                                    <a className="dropdown-item" href="index.html">
+                                        <Icon.Settings className="align-middle me-1" /> Settings & Privacy</a>
+                                    <a className="dropdown-item" href="#">
+                                        <Icon.HelpCircle className="align-middle me-1" /> Help Center</a>
                                     <div className="dropdown-divider"></div>
                                     <a className="dropdown-item" href="#">Log out</a>
                                 </div>
@@ -327,7 +327,7 @@ export default function App() {
 
                                                         <div className="col-auto">
                                                             <div className="stat text-primary">
-                                                                <i className="align-middle" data-feather="truck"></i>
+                                                                <Icon.Truck className="align-middle" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -348,7 +348,7 @@ export default function App() {
 
                                                         <div className="col-auto">
                                                             <div className="stat text-primary">
-                                                                <i className="align-middle" data-feather="users"></i>
+                                                                <Icon.Users className="align-middle" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -371,7 +371,7 @@ export default function App() {
 
                                                         <div className="col-auto">
                                                             <div className="stat text-primary">
-                                                                <i className="align-middle" data-feather="dollar-sign"></i>
+                                                                <Icon.DollarSign className="align-middle" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -392,7 +392,7 @@ export default function App() {
 
                                                         <div className="col-auto">
                                                             <div className="stat text-primary">
-                                                                <i className="align-middle" data-feather="shopping-cart"></i>
+                                                                <Icon.ShoppingCart className="align-middle" />
                                                             </div>
                                                         </div>
                                                     </div>
