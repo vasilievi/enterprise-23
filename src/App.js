@@ -21,39 +21,39 @@ export default function App() {
 
                         <li className="sidebar-item active">
                             <a className="sidebar-link" href="index.html">
-                                <Icon.Sliders class="align-middle" /> <span
+                                <Icon.Sliders className="align-middle" /> <span
                                     className="align-middle">Dashboard</span>
                             </a>
                         </li>
                         <li className="sidebar-item active">
                             <a className="sidebar-link" href="pages-tasks.html">
-                                <Icon.List class="align-middle" /> <span className="align-middle">Tasks</span>
+                                <Icon.List className="align-middle" /> <span className="align-middle">Tasks</span>
                                 <span className="sidebar-badge badge bg-primary">Pro</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="pages-profile.html">
-                                <Icon.User class="align-middle" /> <span className="align-middle">Profile</span>
+                                <Icon.User className="align-middle" /> <span className="align-middle">Profile</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="pages-sign-in.html">
-                                <Icon.LogIn class="align-middle" /> <span className="align-middle">Sign In</span>
+                                <Icon.LogIn className="align-middle" /> <span className="align-middle">Sign In</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="pages-sign-up.html">
-                                <Icon.UserPlus class="align-middle" /> <span className="align-middle">Sign
+                                <Icon.UserPlus className="align-middle" /> <span className="align-middle">Sign
                                     Up</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="pages-blank.html">
-                                <Icon.Book class="align-middle" /> <span className="align-middle">Blank</span>
+                                <Icon.Book className="align-middle" /> <span className="align-middle">Blank</span>
                             </a>
                         </li>
 
@@ -63,33 +63,33 @@ export default function App() {
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="ui-buttons.html">
-                                <Icon.Square class="align-middle" /> <span className="align-middle">Buttons</span>
+                                <Icon.Square className="align-middle" /> <span className="align-middle">Buttons</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="ui-forms.html">
-                                <Icon.CheckSquare class="align-middle" /> <span
+                                <Icon.CheckSquare className="align-middle" /> <span
                                     className="align-middle">Forms</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="ui-cards.html">
-                                <Icon.Grid class="align-middle" /> <span className="align-middle">Cards</span>
+                                <Icon.Grid className="align-middle" /> <span className="align-middle">Cards</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="ui-typography.html">
-                                <Icon.AlignLeft class="align-middle" /> <span
+                                <Icon.AlignLeft className="align-middle" /> <span
                                     className="align-middle">Typography</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="icons-feather.html">
-                                <Icon.Coffee class="align-middle" /><span className="align-middle">Icons</span>
+                                <Icon.Coffee className="align-middle" /><span className="align-middle">Icons</span>
                             </a>
                         </li>
 
@@ -99,14 +99,14 @@ export default function App() {
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="charts-chartjs.html">
-                                <Icon.BarChart2 class="align-middle" /><span
+                                <Icon.BarChart2 className="align-middle" /><span
                                     className="align-middle">Charts</span>
                             </a>
                         </li>
 
                         <li className="sidebar-item">
                             <a className="sidebar-link" href="maps-google.html">
-                                <Icon.Map class="align-middle" /><span className="align-middle">Maps</span>
+                                <Icon.Map className="align-middle" /><span className="align-middle">Maps</span>
                             </a>
                         </li>
                     </ul>
