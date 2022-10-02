@@ -3,7 +3,7 @@ import * as Icon from 'react-feather';
 
 export default function App() {
     useEffect(() => {
-        console.log('useEffect');
+        console.log('useEffect test');
     }, []);
  
     return (
