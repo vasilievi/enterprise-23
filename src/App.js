@@ -11,7 +11,7 @@ export default function App() {
             <nav id="sidebar" className="sidebar js-sidebar">
                 <div className="sidebar-content js-simplebar">
                     <a className="sidebar-brand" href="index.html">
-                        <span className="align-middle">Enterprise v.23</span>
+                        <span className="align-middle">Enterprise</span>
                     </a>
 
                     <ul className="sidebar-nav">
