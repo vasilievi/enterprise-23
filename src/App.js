@@ -5,10 +5,10 @@ export default function App() {
     useEffect(() => {
         console.log('useEffect test');
 
-        const script = document.createElement("script");
-        script.src = "/app.js";
-        script.async = true;
-        document.body.appendChild(script);
+        // const script = document.createElement("script");
+        // script.src = "/app.js";
+        // script.async = true;
+        // document.body.appendChild(script);
     }, []);
   
     return (
