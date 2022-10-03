@@ -1,15 +1,22 @@
+import { getElementError } from '@testing-library/react';
 import { useEffect } from 'react';
 import * as Icon from 'react-feather';
 
 export default function App() {
     useEffect(() => {
-        console.log('useEffect test');
+        console.log('useEffect');
 
         // const script = document.createElement("script");
         // script.src = "/app.js";
         // script.async = true;
         // document.body.appendChild(script);
     }, []);
+
+    function sidebarToggle() {
+        console.log('sidebarToggle');
+        let sidebar = document.getElementById("sidebar")
+        sidebar.classList.toggle("collapsed")
+    }
   
     return (
         <div className="wrapper">
@@ -133,7 +140,7 @@ export default function App() {
 
             <div className="main">
                 <nav className="navbar navbar-expand navbar-light navbar-bg">
-                    <a className="sidebar-toggle js-sidebar-toggle">
+                    <a className="sidebar-toggle js-sidebar-toggle" onClick={sidebarToggle}>
                         <i className="hamburger align-self-center"></i>
                     </a>
 
