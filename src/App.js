@@ -4,6 +4,11 @@ import * as Icon from 'react-feather';
 export default function App() {
     useEffect(() => {
         console.log('useEffect test');
+
+        const script = document.createElement("script");
+        script.src = "/app.js";
+        script.async = true;
+        document.body.appendChild(script);
     }, []);
   
     return (
@@ -25,6 +30,7 @@ export default function App() {
                                     className="align-middle">Dashboard</span>
                             </a>
                         </li>
+                        
                         <li className="sidebar-item active">
                             <a className="sidebar-link" href="pages-tasks.html">
                                 <Icon.List className="align-middle" /> <span className="align-middle">Tasks</span>
