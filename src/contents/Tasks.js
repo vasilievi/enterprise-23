@@ -38,7 +38,7 @@ export default function Tasks() {
                             </div>
                             <div className="card-body">
 
-                                <div id="tasks-backlog" style={{"min-height": "50px"}}>
+                                <div id="tasks-backlog" style={{minHeight: "50px"}}>
                                     <div className="card mb-3 bg-light cursor-grab border">
                                         <div className="card-body p-3">
                                             <div className="float-end me-n2">
@@ -145,7 +145,7 @@ export default function Tasks() {
                             </div>
                             <div className="card-body">
 
-                                <div id="tasks-progress" style={{"min-height": "50px"}}>
+                                <div id="tasks-progress" style={{minHeight: "50px"}}>
                                     <div className="card mb-3 bg-light cursor-grab border">
                                         <div className="card-body p-3">
                                             <div className="float-end me-n2">
@@ -221,7 +221,7 @@ export default function Tasks() {
                             </div>
                             <div className="card-body">
 
-                                <div id="tasks-completed" style={{"min-height": "50px"}}>
+                                <div id="tasks-completed" style={{minHeight: "50px"}}>
                                     <div className="card mb-3 bg-light cursor-grab border">
                                         <div className="card-body p-3">
                                             <div className="float-end me-n2">

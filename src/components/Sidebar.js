@@ -10,6 +10,14 @@ export default function Sidebar() {
         console.log('useEffect');
     }, []);
 
+    function checkSidebar() {
+        console.log('checkSidebar');
+        let sidebar = document.getElementById("sidebar")
+        if (document.documentElement.clientWidth < 1000) {
+            sidebar.classList.toggle("collapsed")
+        }
+    }
+
     return (
         <nav id="sidebar" className="sidebar js-sidebar">
             <div className="sidebar-content js-simplebar">
@@ -40,14 +48,14 @@ export default function Sidebar() {
                     </li>
 
                     <li className="sidebar-item active">
-                        <Link className="sidebar-link" to="/">
+                        <Link className="sidebar-link" to="/" onClick={checkSidebar}>
                             <Icon.Sliders className="align-middle" /> <span className="align-middle">Dashboard</span>
                             <span className="sidebar-badge badge bg-primary">2</span>
                         </Link>
                     </li>
 
                     <li className="sidebar-item active">
-                        <Link className="sidebar-link" to="/tasks">
+                        <Link className="sidebar-link" to="/tasks" onClick={checkSidebar}>
                             <Icon.List className="align-middle" /> <span className="align-middle">Tasks</span>
                             <span className="sidebar-badge badge bg-primary">2</span>
                         </Link>
