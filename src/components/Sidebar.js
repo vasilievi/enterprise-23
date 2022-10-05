@@ -32,9 +32,11 @@ export default function Sidebar() {
                     </li>
 
                     <li className="sidebar-item">
-                        <a className="sidebar-link" href="pages-profile.html">
-                            <Icon.User className="align-middle" /> <span className="align-middle">Profile</span>
-                        </a>
+                        <Link className="sidebar-link" to="/profile" onClick={checkSidebar}>
+                            <Icon.User className="align-middle" /> <span className="align-middle">Dashboard</span>
+                            <span className="sidebar-badge badge bg-primary">2</span>
+                        </Link>
+
                     </li>
 
                     <li className="sidebar-item">

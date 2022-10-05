@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 // Contents
 import Dashboard from "../contents/Dashboard";
 import Tasks from "../contents/Tasks";
+import Profile from "../contents/Profile";
 
 import {
     Routes,
@@ -27,6 +28,7 @@ export default function Main() {
                     <Routes>
                         <Route path="/" element={<Dashboard />} />
                         <Route path="/tasks" element={<Tasks />} />
+                        <Route path="/profile" element={<Profile />} />
                     </Routes>
                     <Footer />
                 </div>
