@@ -33,7 +33,7 @@ export default function Sidebar() {
 
                     <li className="sidebar-item">
                         <Link className="sidebar-link" to="/profile" onClick={checkSidebar}>
-                            <Icon.User className="align-middle" /> <span className="align-middle">Dashboard</span>
+                            <Icon.User className="align-middle" /> <span className="align-middle">Profile</span>
                             <span className="sidebar-badge badge bg-primary">2</span>
                         </Link>
 
