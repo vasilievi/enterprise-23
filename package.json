@@ -1,6 +1,6 @@
 {
   "name": "enterprise-23",
-  "version": "0.1.0",
+  "version": "22.11.12",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
