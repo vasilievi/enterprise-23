@@ -13,9 +13,8 @@ export default function Sidebar() {
                     <div className="col-6 text-start">
                         <p className="mb-0">
                             <a className="text-muted" href="https://adminkit.io/"
-                                target="_blank"><strong>AdminKit</strong></a> - <a className="text-muted"
-                                    href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin
-                                        Template</strong></a> &copy;
+                                target="_blank"><strong>Enterprise</strong></a> - <a className="text-muted"
+                                    href="https://adminkit.io/" target="_blank"><strong>22.11.13</strong></a> &copy;
                         </p>
                     </div>
                     <div className="col-6 text-end">
