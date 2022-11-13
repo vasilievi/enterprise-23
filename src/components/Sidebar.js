@@ -10,12 +10,19 @@ export default function Sidebar() {
         console.log('useEffect');
     }, []);
 
-    function checkSidebar() {
+    function checkSidebar(e) {
         console.log('checkSidebar');
         let sidebar = document.getElementById("sidebar")
         if (document.documentElement.clientWidth < 1000) {
             sidebar.classList.toggle("collapsed")
         }
+
+        let sidebarItems = document.getElementsByClassName("sidebar-item")
+        for (const sidebarItem of sidebarItems) {
+            sidebarItem.classList.remove("active")
+        }
+
+        e.target.closest('li').classList.add("active")
     }
 
     return (
@@ -40,23 +47,23 @@ export default function Sidebar() {
                     </li>
 
                     <li className="sidebar-item">
-                        <a className="sidebar-link" href="pages-sign-in.html">
+                        <Link className="sidebar-link" to="/signin" onClick={checkSidebar}>
                             <Icon.LogIn className="align-middle" /> <span className="align-middle">Sign In</span>
-                        </a>
+                        </Link>
                     </li>
 
                     <li className="sidebar-header">
                         Tasks
                     </li>
 
-                    <li className="sidebar-item active">
+                    <li className="sidebar-item">
                         <Link className="sidebar-link" to="/" onClick={checkSidebar}>
                             <Icon.Sliders className="align-middle" /> <span className="align-middle">Dashboard</span>
                             <span className="sidebar-badge badge bg-primary">2</span>
                         </Link>
                     </li>
 
-                    <li className="sidebar-item active">
+                    <li className="sidebar-item">
                         <Link className="sidebar-link" to="/tasks" onClick={checkSidebar}>
                             <Icon.List className="align-middle" /> <span className="align-middle">Tasks</span>
                             <span className="sidebar-badge badge bg-primary">2</span>
