@@ -3,7 +3,7 @@ import * as Icon from 'react-feather';
 
 export default function Dashboard() {
     useEffect(() => {
-        console.log('useEffect');
+        console.log('Dashboard useEffect');
     }, []);
 
     return (

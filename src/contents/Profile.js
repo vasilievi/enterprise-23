@@ -3,7 +3,7 @@ import * as Icon from 'react-feather';
 
 export default function Profile() {
     useEffect(() => {
-        console.log('useEffect');
+        console.log('Profile useEffect');
     }, []);
 
     return (

@@ -3,7 +3,7 @@ import * as Icon from 'react-feather';
 
 export default function Tasks() {
     useEffect(() => {
-        console.log('useEffect');
+        console.log('Tasks useEffect');
     }, []);
 
     return (

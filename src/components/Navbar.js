@@ -3,7 +3,7 @@ import * as Icon from 'react-feather';
 
 export default function Navbar() {
     useEffect(() => {
-        console.log('useEffect');
+        console.log('Navbar useEffect');
     }, []);
 
     function sidebarToggle() {

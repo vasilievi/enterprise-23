@@ -7,7 +7,7 @@ import {
 
 export default function Sidebar() {
     useEffect(() => {
-        console.log('useEffect');
+        console.log('Sidebar useEffect');
     }, []);
 
     function checkSidebar(e) {
