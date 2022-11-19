@@ -14,7 +14,7 @@ export default function Footer() {
                         <p className="mb-0">
                             <a className="text-muted" href="https://adminkit.io/"
                                 target="_blank"><strong>Enterprise</strong></a> - <a className="text-muted"
-                                    href="https://adminkit.io/" target="_blank"><strong>22.11.14.1</strong></a> &copy;
+                                    href="https://adminkit.io/" target="_blank"><strong>22.11.19</strong></a> &copy;
                         </p>
                     </div>
                     <div className="col-6 text-end">
